@@ -25,6 +25,6 @@ As the final contribution of this thesis we present a study about route leaks pr
 ["Design and Implementation of InBlock—A Distributed IP Address Registration System", in IEEE Systems Journal, vol. 15, no. 3, pp. 3528–3539, 2021.](https://ieeexplore.ieee.org/document/9144171)
 
 
-- Marcelo Bagnulo, Alberto García-Martínez, Stefano Angieri, Andra Lutu and Jinze Yang, ["Practicable route leak detection and prevention with ASIRIA". This work has been submitted for publication.](https://dl.acm.org/doi/abs/10.1016/j.comnet.2022.108966)
+- Marcelo Bagnulo, Alberto García-Martínez, Stefano Angieri, Andra Lutu and Jinze Yang, ["Practicable route leak detection and prevention with ASIRIA", in Computer Networks: The International Journal of Computer and Telecommunications NetworkingVolume 211, Issue C, Jul 2022.](https://dl.acm.org/doi/abs/10.1016/j.comnet.2022.108966)
 
 - Stefano Angieri, Marcelo Bagnulo, Alberto García-Martínez, "Internet Routing Blockchain: an Hyperledger Fabric consortium blockchain for Internet Routing Registries". This work has been submitted for publication. 
