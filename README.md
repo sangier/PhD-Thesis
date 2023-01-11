@@ -25,7 +25,7 @@ As the final contribution of this thesis we present a study about route leaks pr
 
 - Marcelo Bagnulo, Alberto García-Martínez, Stefano Angieri, Andra Lutu and Jinze Yang, ["Practicable route leak detection and prevention with ASIRIA", in Computer Networks: The International Journal of Computer and Telecommunications NetworkingVolume 211, Issue C, Jul 2022.](https://dl.acm.org/doi/abs/10.1016/j.comnet.2022.108966)
 
-- [Stefano Angieri, Marcelo Bagnulo, Alberto García-Martínez, "Internet Routing Blockchain: an Hyperledger Fabric consortium blockchain for Internet Routing Registries".](files/IRB_Tech_paper.pdf) 
+- Stefano Angieri, Marcelo Bagnulo, Alberto García-Martínez, ["Internet Routing Blockchain: an Hyperledger Fabric consortium blockchain for Internet Routing Registries".](files/IRB_Tech_paper.pdf) 
 
 ## Repos
 For the technical implementation of the PoCs refer to the following repositories: 
