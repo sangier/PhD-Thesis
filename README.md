@@ -1,9 +1,4 @@
-# PhD Thesis 
-This repo contains the full version of my PhD thesis and as well the defense presentation. 
-
-Downloads: 
-- [Blockchain For the Management of Internet Resources - Full Thesis](phd_tesis_stefano_angieri_2022.pdf)
-- [Blockchain For the Management of Internet Resources - Defense Presentation](SA_PhD_Defense.pptx)
+# PhD Thesis: "Blockchain For the Management of Internet Resources"
 
 ## Abstract
 3 January 2009, the first version of the Bitcoin software was released. That date has been the really first time that blockchain technology has been revealed to the world. A blockchain is an immutable distributed ledger that records validated transactions permanently employing cryptography and a distributed consensus algorithms. All the information is stored and validated by all the nodes composing the peer-to-peer network without the need of a trusted third party. Bitcoin is the first application of this technology and it allows e-payments to be easily performed between two parties with no need of intermediaries. Since then the hype about the technology has led several advances, exceeding the pure financial sphere and attempting to solve disparate problems, rather than digital payments only. As example, Ethereum with its introduction of smart contracts, has been the first application of the so called 2.0 generation of blockchain technology. A smart contract is a self-executing program, stored in the blockchain, with the terms of the agreement between interested parties hard-coded in the contract definition. Smart contract allow trusted transactions and agreements to be performed between distrust parties without the need for any intermediary or external enforcement mechanism. Therefore, with the introduction of smart contracts, the blockchain paradigm can be extended to the automation of complex resource manipulation and transference procedures in a transparent and trustable manner, by means of the specification of these new types of contracts.
@@ -13,8 +8,12 @@ In this thesis we present two Proof of Concept (PoC) implementation of InBlock: 
 The second study we present in this thesis is on the design and a PoC implementation of the Internet Routing Blockchain (IRB), an implementation of the Internet Routing Registry (IRR) functionality within Hyperledger Fabric (HF). The IRR is a distributed routing database that provides a mechanism for validating the contents of Border Gateway Protocol (BGP) announcement messages and mapping an origin Autonomous System (AS) number to a list of networks [6]. The IRB relies on a permissioned blockchain technology that is inherently distributed, allows to preserve the decentralised nature of the IRR, overcomes the centralized governance model limitation of current used mechanism employing a consortium based model, provides consistency and information stall-ness prevention and offers a simple declaration syntax for the policy definition of ASes relationship.
 As the final contribution of this thesis we present a study about route leaks prevention and the utilization of the information stored in the IRR. A route leak is defined as the propagation of a route beyond its intended scope. Those events have historically caused a consistent number of incidents resulting in Internet disconnections and disservices that generates money loss. In this research work we present the design and the performance evaluation of Autonomous System Internet Registry Inference for path Authorization (ASIRIA), a mechanism for detecting leaked routes and leakage events that uses AS relationship information inferred from the IRR.
 
-## Publications
 
+## Downloads: 
+- [Blockchain For the Management of Internet Resources - Thesis](files/phd_tesis_stefano_angieri_2022.pdf)
+- [Blockchain For the Management of Internet Resources - Defense Presentation](files/SA_PhD_Defense.pptx)
+
+## Publications
 - Stefano Angieri, Alberto García-Martínez, Bingyang Liu, Zhiwei Yan, Chuang Wang and Marcelo Bagnulo, "[A Distributed Autonomous Organization for Internet Address Management», in IEEE Transactions on Engineering Management, vol. 67, no. 4, pp. 1459–1475, 2020.](https://www.semanticscholar.org/paper/A-Distributed-Autonomous-Organization-for-Internet-Angieri-Garc%C3%ADa-Mart%C3%ADnez/c01ee3d0d7228d8b45f0eb508fba7d04e1c76b55) 
     - [Preprint Version: An experiment in distributed Internet address management using blockchains](https://arxiv.org/abs/1807.10528)
 
@@ -24,7 +23,11 @@ As the final contribution of this thesis we present a study about route leaks pr
 - Alberto García-Martínez, Stefano Angieri, Bingyang Liu, Fei Yang and Marcelo Bagnulo,
 ["Design and Implementation of InBlock—A Distributed IP Address Registration System", in IEEE Systems Journal, vol. 15, no. 3, pp. 3528–3539, 2021.](https://ieeexplore.ieee.org/document/9144171)
 
-
 - Marcelo Bagnulo, Alberto García-Martínez, Stefano Angieri, Andra Lutu and Jinze Yang, ["Practicable route leak detection and prevention with ASIRIA", in Computer Networks: The International Journal of Computer and Telecommunications NetworkingVolume 211, Issue C, Jul 2022.](https://dl.acm.org/doi/abs/10.1016/j.comnet.2022.108966)
 
-- Stefano Angieri, Marcelo Bagnulo, Alberto García-Martínez, "Internet Routing Blockchain: an Hyperledger Fabric consortium blockchain for Internet Routing Registries". This work has been submitted for publication. 
+- [Stefano Angieri, Marcelo Bagnulo, Alberto García-Martínez, "Internet Routing Blockchain: an Hyperledger Fabric consortium blockchain for Internet Routing Registries".](files/IRB_Tech_paper.pdf) 
+
+## Repos
+For the technical implementation of the PoCs refer to the following repositories: 
+- [InBlock](https://github.com/steang91/InBlock_Code)
+- [IRB Blockchain](https://github.com/steang91/IRB_Blockchain)
